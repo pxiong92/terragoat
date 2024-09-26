@@ -29,6 +29,8 @@ resource aws_iam_role "iam_for_eks" {
     git_repo             = "terragoat"
     yor_trace            = "de052596-21a0-43de-8153-469add277b18"
   }
+accesskey= AKIA4T6XSYCAHYJEfdd
+
 }
 
 resource aws_iam_role_policy_attachment "policy_attachment-AmazonEKSClusterPolicy" {
